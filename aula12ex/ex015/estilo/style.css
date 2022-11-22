@@ -20,6 +20,11 @@ section{
 input#txtano{
     width: 70px;
 }
+a{
+    text-decoration: none;
+    color: white;
+}
+
 footer{
     color: white;
     text-align: center;
