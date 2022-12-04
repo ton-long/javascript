@@ -16,6 +16,10 @@ section{
     margin: auto;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.342);
 }
+a{
+    color: white;
+    text-decoration: none;
+}
 footer{
     color: white;
     text-align: center;
