@@ -58,7 +58,7 @@ function finalizar(){
         res.innerHTML += `<p>Ao todo temos ${tot} elementos.</p>`
         res.innerHTML +=`<p>O maior valor informado foi ${maior}.</p>`
         res.innerHTML +=`<p>O menor valor informado foi ${menor}.</p>`
-        res.innerHTML +=`<p>Somando todos os valores, temos ${soma}.</p>`
+        res.innerHTML +=`<p>Somando todos os valores, temos ${soma.toFixed(1).replace('.',',')}.</p>`
         res.innerHTML +=`<p>A média dos valores foi de ${media.toFixed(1).replace('.',',')}.</p>`
     }
 }
